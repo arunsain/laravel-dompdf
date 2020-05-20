@@ -8,9 +8,8 @@ create  laravel-dompdf
 	....
 	Barryvdh\DomPDF\ServiceProvider::class,
 ],
-  
 'aliases' => [
-	....
+
 	'PDF' => Barryvdh\DomPDF\Facade::class,
 ]
 
@@ -46,8 +45,8 @@ create  laravel-dompdf
       	//this function download 
 		return $pdf->download($path);
 
-// this function display pdf in browser
- // return $pdf->stream();
+    // this function display pdf in browser
+    // return $pdf->stream();
        
     }
 
